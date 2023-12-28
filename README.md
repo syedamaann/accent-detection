@@ -2,8 +2,6 @@
 
 This project addresses the challenge of accent diversity in English speech recognition systems, aiming to enhance their accuracy through the implementation of a supervised machine learning model. The model utilizes Sequential Mel-frequency cepstral coefficients (MFCC) features to classify speakers as either having an Indian or American English accent.
 
-## Implementation Details
-
 ### Methodology
 1. **Proposed Method:** Sequential MFCC features are extracted from audio signals to provide a unique perspective for accent identification.
 2. **Dataset:** The dataset comprises 3-5 second audio clips from VCTK-corpus, categorized into training (80%) and testing (20%).
@@ -22,4 +20,3 @@ This project addresses the challenge of accent diversity in English speech recog
 ### Note
 - This project was developed during the IIIT Hyderabad Hackathon as part of the Qualcomm problem statement on Accent Detection.
 - The evaluation criteria include accuracy scores, novelty in methodology or ideation, and the clarity of presentation.
-- The dataset can be accessed [here](https://drive.google.com/drive/u/0/folders/1KAwbnNh4ViFOCNK4MDtW1A0b_mpiBUGt).
